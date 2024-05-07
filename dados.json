@@ -1,0 +1,122 @@
+{
+    "magias": {
+        "Bola de Fogo": {
+            "Custo": 10,
+            "Dano": "1d10",
+            "Tipo": "",
+            "Tipo de Dano": "Elemental/Fogo",
+            "Tempo de Conjuracao": "1 ação",
+            "Area": "5",
+            "Descricao": "" 
+        }
+    },
+    "habilidades":{
+        "": {
+            "Custo": "5",
+            "Efeito": "",
+            "Descricao": ""
+        }
+    },
+    "ataques":{
+        
+    },
+    "racas": {
+        "Humano": {
+            "Pontos": 8
+        },
+        "Elfo": {
+            "Pontos": 5,
+            "mana": 3
+        },
+        "Anao": {
+            "Pontos": 5,
+            "vida": 3
+        },
+        "Homem-Lagarto": {
+            "Pontos": 5,
+            "vida": 1,
+            "esquiva": 1,
+            "armadura": 1
+        },
+        "Nascido do Dragão": {
+            "Pontos": 5,
+            "ataqueM": 1,
+            "ataqueL": 1,
+            "ataqueC": 1
+        }
+    },
+    "equipamentos": {
+        "Cetro": {
+            "Nome": "Cetro",
+            "Peso": 0.5,
+            "Modificador": "1d4",
+            "TipoModificador": "Dano", 
+            "Efeito": "Você recupera 1 de Mana por turno",
+            "EfeitoTags": "Voce/Mais/1/Mana/Turno",
+            "Descricao": "Cetro é uma pequena aste de materiais diversos que permite a melhor manipulação da Mana"
+        },
+        "Espada Longa": {
+            "Nome": "Espada Longa",
+            "Peso": 1.5,
+            "Modificador": "1d8",
+            "TipoModificador": "Dano", 
+            "Efeito": "",
+            "EfeitoTags": "",
+            "Descricao": "Espada longa é uma das maiores espadas em uso, perdendo somente para a espada montante."
+        },
+        "Espada Montante": {
+            "Nome": "Espada Montante",
+            "Peso": 2,
+            "Modificador": "1d10",
+            "TipoModificador": "Dano", 
+            "Efeito": "",
+            "EfeitoTags": "",
+            "Descricao": "O Montante é um tipo de espada que se destaca por ser maior que as demais, chegando a medir, em média, 150 cm de comprimento."
+        },
+        "Armadura de Couro": {
+            "Nome": "Armadura de Couro",
+            "Peso": 3,
+            "Modificador": "2",
+            "TipoModificador": "Armadura", 
+            "Efeito": "",
+            "EfeitoTags": "",
+            "Descricao": "Armadura de couro é um tipo de roupa de proteção feita de peles de animais curtidas, geralmente de vacas ou ovelhas."
+        },
+        "Cota de Malha": {
+            "Nome": "Cota de Malha",
+            "Peso": 10,
+            "Modificador": "4",
+            "TipoModificador": "Armadura", 
+            "Efeito": "Você recebe 1 de Armadura adiconal contra Ataques Corpo a Corpo",
+            "EfeitoTags": "Voce/Menos/1/Dano/AtaqueC",
+            "Descricao": "A cota de malha é um aparato utilizado como proteção para o corpo, que consiste em uma série de entrelaçamentos de pequenas argolas de metal (muitas vezes ferro forjado, aço ou até ligas de ouro)."
+        },
+        "Gamberson": {
+            "Nome": "Gamberson",
+            "Peso": 3,
+            "Modificador": "1",
+            "TipoModificador": "Armadura", 
+            "Efeito": "Você recebe 1 de Armadura adiconal contra Ataques de Longo Alcance",
+            "EfeitoTags": "Voce/Menos/1/Dano/AtaqueL",
+            "Descricao": "Gamberson é uma jaqueta defensiva acolchoada, usada como armadura separadamente ou combinada com cota de malha ou armadura de placas."
+        }
+    },
+    "mistos": {
+        "Poção de Cura Menor": {
+            "Nome": "Poção de Cura Menor",
+            "Peso": 0.5,
+            "Modificador": "10",
+            "Tipo": "Vida", 
+            "Efeito": "",
+            "Descricao": ""
+        },
+        "Poção de Mana Menor": {
+            "Nome": "Poção de Mana Menor",
+            "Peso": 0.5,
+            "Modificador": "5",
+            "Tipo": "Mana", 
+            "Efeito": "",
+            "Descricao": ""
+        }
+    }
+}
